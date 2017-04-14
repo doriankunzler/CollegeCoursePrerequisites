@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CourseCatalog
 {
@@ -114,7 +111,7 @@ namespace CourseCatalog
             return "";
         }
 
-        public void PrintCatalog()
+        public void PrintCourseList()
         {
             string output = String.Join(", ", CourseList.Keys);
 
